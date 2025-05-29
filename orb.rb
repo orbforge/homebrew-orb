@@ -9,6 +9,11 @@ class Orb < Formula
     bin.install "orb"
   end
 
+  service do
+    run [opt_bin/"orb", "sensor"]
+    keep_alive true
+  end
+  
   test do
     system "#{bin}/orb", "version"
   end
