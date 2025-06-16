@@ -1,9 +1,10 @@
 class Orb < Formula
+	name "Orb Sensor"
 	desc "Network performance monitor"
 	homepage "https://orb.net"
-	url "https://pkgs.orb.net/earlyaccess/orb-osx-universal.zip"
-	sha256 "d54915cada76776bdb9574701f4566bd7404d82079bfcde31bf26b93ec669f63"
-	version "1.0.1" # or whatever version you have
+	url "https://pkgs.orb.net/stable/macos/orb-#{version}.zip"
+	sha256 "847800ceae5d39e4b572591f2be7c192c4741195fb9e3a4c291374580893e3b8"
+	version "1.0.9" # or whatever version you have
 
   def install
     bin.install "orb"
