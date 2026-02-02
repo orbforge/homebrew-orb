@@ -13,6 +13,7 @@ class Orb < Formula
   service do
     run [opt_bin/"orb", "sensor"]
     keep_alive true
+    error_log_path var/"log/orb.log"
   end
   
   test do
