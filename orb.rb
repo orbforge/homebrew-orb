@@ -1,5 +1,5 @@
 class Orb < Formula
-  version "1.4.13"
+  version "1.5.0"
   sha256 "b668d54f72953c7787012428db147071bdd5483361685b68adc7f16d87ed172e"
   
   desc "Network performance monitor"
