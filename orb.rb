@@ -1,6 +1,6 @@
 class Orb < Formula
-  version "1.5.6"
-  sha256 "c6af3327520eebeff043097ca27daa7f396598058166e7cba87ec3231cc14556"
+  version "1.6.0"
+  sha256 "4204d84f884e5fb6ca6228db9d26caad68934f3efa7acd1ce538173f486e15b4"
 
   desc "Network performance monitor"
   homepage "https://orb.net"
